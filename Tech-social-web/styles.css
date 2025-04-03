@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.job-card, .mentor-card {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* General Styles for Authentication Forms */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.auth-form {
+    background-color: white;
+    padding: 30px;
+    margin: 50px auto;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.auth-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.auth-form label {
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+    background-color: #218838;
+}
+
+.auth-form p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.auth-form a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* General Styles for the Collaboration Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.collaboration-intro {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.collaboration-intro h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.collaboration-intro p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.collaboration-intro button {
+    background-color: #218838;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.collaboration-intro button:hover {
+    background-color: #1e7e34;
+}
+
+.collaborators {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.collaborators h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+
+.project-card p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.project-card button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.project-card button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
