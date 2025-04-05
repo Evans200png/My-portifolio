@@ -1,3 +1,4 @@
+/*general style*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +11,7 @@ body {
     color:hsl(0, 16%, 85%);
 
 }
-
+/*header section*/
 header {
     background: #25c590;
     color: white;
@@ -21,7 +22,7 @@ nav ul {
     list-style: none;
     padding: 0;
 }
-
+/*navigation styling*/
 nav ul li {
     display: inline;
     margin: 0 15px;
@@ -37,7 +38,7 @@ nav ul li a:hover{
     background:#04f740;
     transition: 0.3s;
 }
-
+/*image styling*/
  img {
     width: 160px;
     height: 160px;
@@ -52,7 +53,7 @@ container img:hover{
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-
+/*section styling*/
 section {
     margin: 20px auto;
     padding: 20px;
