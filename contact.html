@@ -5,26 +5,42 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>My Portfolio</title>
       <link rel="stylesheet" href="./great-me/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
   <body>
-    <h1>my contacts</h1>
-    <nav>
-        <!--navigation bar-->
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-     </nav>
-     <div class="contacts">
-        <!--showing my contact info-->
-        <h2>Contact</h2>
-        <p>phone: +254 727402449 | +254 797144051</p>
-        <p>Email: <a href="mailto:kimanievansonk@gmail.com">kimanievansonk@gmail.com</a> </p>
-        <div class="social-links">
-            <p><a href="https://www.linkedin.com/in/evanson-kimani-2770b4331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">Linkedin</a>
-            <p></p><a href="https://github.com/Evans200png" target="_blank">Github</a>
-        </div>
-     </div>
+       <h1>my contacts</h1>
+       <nav>
+         <!--navigation bar-->
+           <ul>
+               <li><a href="index.html">About</a></li>
+               <li><a href="projects.html">Projects</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+       </nav>
+       <div class="contact-icons">
+           <h1>Contact</h1>
+           <p><a href="https://github.com/Evans200png" target="_blank" class="icon github"><i class="fab fa-github"></i>:  Github</a>
+           <p><a href="https://www.linkedin.com/in/evanson-kimani-2770b4331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="icon linkedin"><i class="fab fa-linkedin"></i>:   Linkedin</a>
+           <p><a href="tel:+254727402449" class="icon phone"><i class="fas fa-phone"></i>   +254727402449 | +254797144051</a>
+           <p><a href="mailto:kimanievansonk@gmail.com" class="icon email"><i class="fas fa-envelope"></i>   kimanievansonk@gmail.com</a>
+       </div>
+       <section class="contact-section">
+           <h1>Get in Touch</h1>
+           <form class="contact-form" action="#" method="post">
+               <label for="name">Name</label>
+               <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+               <label for="phone">Phone Number</label>
+               <input type="tel" id="phone" name="phone" placeholder="e.g. +1234567890" required>
+
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+               <label for="message">Message</label>
+               <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+               <button type="submit">Send Message</button>
+           </form>
+       </section>
   </body>
 </html>

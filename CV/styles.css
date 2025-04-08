@@ -35,9 +35,14 @@ body {
     padding-left: 20px;
 }
 
-h1 {
+h1{
+    color:yellowgreen;
     text-align: center;
-    color: #333;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: left;
+    color: #09dd73;
 }
 
 h3 {
