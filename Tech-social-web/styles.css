@@ -52,6 +52,21 @@ section, .auth-form, .project-card {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
+    color: #333;
+}
+
+.btn{
+    color: white;
+    background-color: #28a745;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3e0acf;
 }
 
 button.btn {
